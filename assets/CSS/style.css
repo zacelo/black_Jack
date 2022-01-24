@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(18, 180, 45);
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  background-color: rgb(10, 10, 10);
+}
+.menu {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.botones {
+  width: 160px;
+  padding: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgb(65, 142, 230);
+  color: white;
+  margin-top: 20px;
+}
+
+.botones:first-child {
+  background-color: rgb(235, 72, 22);
+}
+.botones:hover {
+  background-color: grey;
+}
+.container {
+  margin: 0px auto;
+}
+
+.carta {
+  width: 180px;
+  position: relative;
+  left: 290px;
+  margin-left: -105px;
+  margin-bottom: 20px;
+}
+
+.resultado {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: rgb(74, 214, 61);
+}
+.resultado small {
+  margin-left: 100px;
+  font-size: 30px;
+  color: rgb(255, 5, 5);
+  background-color: rgb(0, 0, 0);
+  padding: 12px;
+  border-radius: 90px;
+}
+.resultado h2 {
+  margin-left: 100px;
+  font-size: 35px;
+  color: rgb(3, 1, 14);
+}
+
+#btn_pedir,
+#btn_detener {
+  visibility: hidden;
+}
+
+@media (max-width: 720px) {
+  .titulo {
+    text-align: center;
+    color: white;
+    padding: 4px;
+    margin-top: 0px;
+    background-color: rgb(10, 10, 10);
+  }
+  .menu {
+    margin: -10px;
+    margin-bottom: 10px;
+  }
+  .carta {
+    width: 130px;
+    height: 180px;
+    position: relative;
+    left: 120px;
+    margin-left: -100px;
+  }
+  .botones {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(65, 142, 230);
+    color: white;
+  }
+  .resultado small {
+    margin-left: 30px;
+    font-size: 25px;
+    padding: 6px;
+  }
+  .resultado h2 {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+}

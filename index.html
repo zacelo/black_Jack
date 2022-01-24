@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack</title>
+    <link rel="icon" type="image/png" href="favicon/icon.png" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+  </head>
+
+  <body>    
+        <header class="titulo" >         
+          <h1>♠ ♥ ♦ ♣ ... Black Jack ... ♣ ♦ ♥ ♠</h1>
+        </header>
+        <div class="container">
+          <div class="menu">
+            <button id="btn_nuevo" class="botones">JUGAR</button>
+            <button id="btn_pedir" class="botones boton">PEDIR</button>
+            <button id="btn_detener" class="botones boton">DETENER</button>
+          </div>
+          <div class="contenedor">
+            <div class="resultado">
+              <h2>Jugador</h2>
+              <small>0</small>
+            </div>            
+            <div id="jugador-cartas">
+              <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+            </div>
+            <div id="mensaje">
+              <h2></h2>
+            </div>
+            <div class="resultado">
+              <h2>Maquina</h2>
+              <small>0</small>
+            </div>
+            <div></div>
+            <div id="computadora-cartas">
+              <img class="carta" src="assets/cartas/grey_back.png" alt="" />
+            </div>
+           
+          </div>
+        </div>
+      
+
+    <script
+      type="text/javascript"
+      src="assets/JS/underscore-umd-min.js  "
+    ></script>
+    <script type="text/javascript" src="assets/JS/juego.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
