@@ -159,7 +159,7 @@
   const ganador = ()=>{
     Swal.fire({
       icon: 'success',
-      title: '♦♣ Has ganado ♣♦',
+      title: '♣ Has ganado ♦',
       showConfirmButton: false,
       timer: 2500
     });
@@ -167,7 +167,7 @@
   const perdedor = ()=>{
     Swal.fire({
       icon: 'error',
-      title: '♦♣ Has perdido ♣♦',
+      title: '♦ Has perdido ♣',
       showConfirmButton: false,
       timer: 2500
     });
